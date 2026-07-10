@@ -1,0 +1,72 @@
+/* =======================================================
+   Together-1: Mã nguồn CSS đáp ứng đầy đủ yêu cầu từ đề bài
+   ======================================================= */
+
+/* Bước 3: Sửa đổi thuộc tính họ phông chữ (font-family) và kích thước phông chữ (font-size) cho body */
+body {
+    background: #B3B3B3;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bước 4: Sửa đổi thuộc tính màu nền (background-color) cho header */
+header {
+    background: #666666;
+    text-align: center;
+}
+
+/* Bước 5: Sửa đổi thuộc tính màu nền cho nav */
+nav {
+    background-color: #444444;
+    font-variant: small-caps;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 150%;
+    padding: 8px;
+}
+
+/* Bước 6: Sửa đổi màu nền và thuộc tính kích thước phông chữ cho thẻ chính (section) */
+section {
+    background-color: #ffffff;
+    font-size: 110%;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Bước 7: Sửa đổi thuộc tính màu nền cho thẻ chân trang (footer) */
+footer {
+    background: #333333;
+    padding: 10px;
+}
+
+/* Bước 8: Sửa đổi các thuộc tính hiển thị (display) và chiều rộng (width) cho thẻ li */
+li {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Bước 9: Sửa đổi căn chỉnh văn bản (text-align), họ phông chữ (font-family) và thuộc tính màu sắc (color) cho h1 */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+/* Bước 10: Sửa đổi thuộc tính chiều cao dòng (line-height) cho thẻ p */
+p {
+    line-height: 1.6;
+}
+
+/* --- Các bộ chọn giữ lại theo thiết kế gốc ban đầu --- */
+h2 {
+    color: #666666;
+    background: #00b7ea;
+    padding: 5px;
+}
+
+summary {
+    font-style: normal;
+}
+
+details {
+    font-style: italic;
+}
